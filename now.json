@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "alias": "distantcam.dev",
+  "routes": [
+    {
+      "src": "/",
+      "status": 301,
+      "headers": {
+        "Location": "https://cam.macfar.land"
+      }
+    },
+    {
+      "src": "/gh",
+      "status": 301,
+      "headers": {
+        "Location": "https://github.com/distantcam"
+      }
+    },
+    {
+      "src": "/github",
+      "status": 301,
+      "headers": {
+        "Location": "https://github.com/distantcam"
+      }
+    },
+    {
+      "src": "/ig",
+      "status": 301,
+      "headers": {
+        "Location": "https://instagram.com/distantcam"
+      }
+    },
+    {
+      "src": "/instagram",
+      "status": 301,
+      "headers": {
+        "Location": "https://instagram.com/distantcam"
+      }
+    },
+    {
+      "src": "/mastodon",
+      "status": 301,
+      "headers": {
+        "Location": "https://mastodon.social/@distantcam"
+      }
+    },
+    {
+      "src": "/md",
+      "status": 301,
+      "headers": {
+        "Location": "https://mastodon.social/@distantcam"
+      }
+    },
+    {
+      "src": "/so",
+      "status": 301,
+      "headers": {
+        "Location": "https://stackoverflow.com/users/3820"
+      }
+    },
+    {
+      "src": "/stackoverflow",
+      "status": 301,
+      "headers": {
+        "Location": "https://stackoverflow.com/users/3820"
+      }
+    },
+    {
+      "src": "/tw",
+      "status": 301,
+      "headers": {
+        "Location": "https://twitter.com/distantcam"
+      }
+    },
+    {
+      "src": "/twitter",
+      "status": 301,
+      "headers": {
+        "Location": "https://twitter.com/distantcam"
+      }
+    }
+  ]
+}
