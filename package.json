@@ -12,9 +12,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "columnify": "^1.5.4",
-    "configstore": "^4.0.0",
     "lodash": "^4.17.11",
-    "meow": "^5.0.0",
-    "tmp": "^0.1.0"
+    "meow": "^5.0.0"
   }
 }
