@@ -10,11 +10,9 @@ const help = `
   Usage
     $ cli <command> [...]
   Commands
-    add <server path> <URL> [...]  add a new redirect to a URL
-    remove <server path> [...]     remove a redirect
-    list                           list all current redirects
-  Options
-    --debug, -d                    enable debug output
+    add <server path> <URL>  add a new redirect to a URL
+    remove <server path>     remove a redirect
+    list                     list all current redirects
 `
 const cli = meow({help})
 
@@ -43,7 +41,7 @@ const commands = {
   },
   remove (path) {
     if (!path) {
-      console.log(chalk.red('you need a path to remove eg `elk remove /twitter`'))
+      console.log(chalk.red('you need a path to remove eg `cli remove /twitter`'))
       process.exit(1)
     }
     if (path.charAt(0) !== '/') {
